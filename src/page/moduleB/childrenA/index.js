@@ -1,3 +1,7 @@
-import Index from './index';
+import Index from './index.vue';
+import newIndex from '@src/page/moduleA/childrenA/index.vue';
 
-export default Index;
+//  继承模块
+
+export default Object.assign( Index, newIndex );
+

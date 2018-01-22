@@ -16,6 +16,9 @@
     },
     data() {
       return {};
+    },
+    created(){
+      console.log('this is 原模块');
     }
   };
 </script>

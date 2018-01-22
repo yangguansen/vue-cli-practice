@@ -24,8 +24,8 @@
         this.$router.push( { path: '/a/childrenA' } );
       },
       async handlerB() {
-        await this.setmoduleB( '这是B的子模块store' );
-//        this.$router.push( { path: '/b/childrenA' } );
+//        await this.setmoduleB( '这是B的子模块store' );
+        this.$router.push( { path: '/b/childrenA' } );
       }
     }
   };

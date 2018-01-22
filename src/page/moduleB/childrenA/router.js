@@ -1,6 +1,6 @@
 // import childrenA from './index.vue';
 
-const childrenA = ( r ) => require.ensure( [], () => r( require( './index.vue' ) ) , 'childrenA');
+const childrenA = ( r ) => require.ensure( [], () => r( require( './index.js' ) ), 'childrenA' );
 
 export default {
   path: 'childrenA',

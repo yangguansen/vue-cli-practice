@@ -9,7 +9,10 @@
       name: 'childrenA',
 	    data() {
 		    return {};
-	    }
+	    },
+      created(){
+        console.log('this is 新模块');
+      }
     };
 </script>
 
